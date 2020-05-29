@@ -1,0 +1,26 @@
+{
+  "name": "tecconnect",
+  "version": "1.0.0",
+  "description": "Connect with other schools to donate or request devices for COVID Learning",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayaanzhaque/TecConnect.git"
+  },
+  "keywords": [
+    "Tecconnect",
+    "COVID",
+    "learning",
+    "donations",
+    "devices"
+  ],
+  "author": "Ayaan Haque, Viraaj Reddi, Adithya Peruvemba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayaanzhaque/TecConnect/issues"
+  },
+  "homepage": "https://github.com/ayaanzhaque/TecConnect#readme"
+}

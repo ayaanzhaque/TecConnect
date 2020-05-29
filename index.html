@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Bocor Bootstrap Template - Index</title>
+  <title>TecConnect</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -26,12 +26,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Bocor - v2.0.0
-  * Template URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -338,6 +332,104 @@
 
       </div>
     </section><!-- End Maps Section -->
+
+    <section id="input" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">Add a marker</h2>
+            <hr class="bottom-line" />
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <div id="sendmessage">Your message has been sent. Thank you!</div>
+        <div id="errormessage"></div>
+        <form id="markerForm" method="post" role="form" class="contactForm">
+          <div class="col-md-3"></div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="name"
+                placeholder="Your Name"
+                data-rule-required="true"
+                data-msg-required="Please enter your name"
+              />
+              <div class="validation"></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+                data-rule-email="true"
+                data-msg-email="Please enter a valid email"
+              />
+              <div class="validation"></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-md-offset-3">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                name="address"
+                id="address"
+                placeholder="Address"
+                data-rule-minlength="4"
+                data-msg-minlength="Please enter a valid address"
+              />
+              <div class="validation"></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-md-offset-3">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+                data-rule-required="true"
+                data-msg-required="Please enter a subject"
+              />
+              <div class="validation"></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-md-offset-3">
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Message"
+                data-rule-required="true"
+                data-msg-required="Please enter a message"
+              ></textarea>
+              <div class="validation"></div>
+            </div>
+            <center>
+              <button
+                id="formbutton"
+                type="button"
+                class="btn btn-primary btn-submit"
+              >
+                SUBMIT
+              </button>
+            </center>
+          </div>
+        </form>
+      </div>
+    </section>
+
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">

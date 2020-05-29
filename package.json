@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ayaanzhaque/TecConnect/issues"
   },
-  "homepage": "https://github.com/ayaanzhaque/TecConnect#readme"
+  "homepage": "https://github.com/ayaanzhaque/TecConnect#readme",
+  "dependencies": {
+    "mongodb": "^3.5.8"
+  }
 }

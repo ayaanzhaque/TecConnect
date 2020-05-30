@@ -14,8 +14,9 @@ function initMap() {
       '</div>'+
       '<h1 id="firstHeading" class="firstHeading">Saratoga High School</h1>'+
       '<div id="bodyContent">'+
-      '<p><b>Device Type:</b> Chromebooks' +
-      '<p><b>Device Count:</b> 2600'+
+      '<p><b>Excess Device Type:</b> Chromebooks' +
+      '<p><b>Excess Device Count:</b> 2600'+
+      '<p><b>Bio Message:</b> Willing to work with any Bay Area Schoosl in need of devices.'+
     '</div>'+
       '</div>';
 
@@ -24,8 +25,9 @@ function initMap() {
           '</div>'+
           '<h1 id="firstHeading" class="firstHeading">Gunn High School</h1>'+
           '<div id="bodyContent">'+
-          '<p><b>Device Type:</b> Chromebooks' +
-          '<p><b>Device Count:</b> 2600'+
+          '<p><b>Excess Device Type:</b> MacBooks' +
+          '<p><b>Excess Device Count:</b> 1500'+
+          '<p><b>Bio Message:</b> Excited to work with any Bay Area Schools to help students.'+
         '</div>'+
           '</div>';
 
@@ -34,8 +36,9 @@ function initMap() {
               '</div>'+
               '<h1 id="firstHeading" class="firstHeading">Monta Vista High School</h1>'+
               '<div id="bodyContent">'+
-              '<p><b>Device Type:</b> Chromebooks' +
-              '<p><b>Device Count:</b> 2600'+
+              '<p><b>Excess Device Type:</b> iPads' +
+              '<p><b>Excess Device Count:</b> 2300'+
+              '<p><b>Bio Message:</b> If any schools need more devices for their students, please do not hesistate to reach out.'+
             '</div>'+
               '</div>';
 
@@ -44,8 +47,9 @@ function initMap() {
                   '</div>'+
                   '<h1 id="firstHeading" class="firstHeading">James Logan High School</h1>'+
                   '<div id="bodyContent">'+
-                  '<p><b>Device Type:</b> Chromebooks' +
-                  '<p><b>Device Count:</b> 2600'+
+                  '<p><b>Device Type Needed:</b> Any' +
+                  '<p><b>Device Count Needed:</b> 2600'+
+                  '<p><b>Bio Message:</b> Would appreciate any support, open to any devices for ~1000 students.'+
                 '</div>'+
                   '</div>';
 
@@ -54,8 +58,9 @@ function initMap() {
                       '</div>'+
                       '<h1 id="firstHeading" class="firstHeading">Prospect High School</h1>'+
                       '<div id="bodyContent">'+
-                      '<p><b>Device Type:</b> Chromebooks' +
-                      '<p><b>Device Count:</b> 2600'+
+                      '<p><b>Device Type Needed:</b> Chromebooks' +
+                      '<p><b>Device Count Needed:</b> 2600'+
+                      '<p><b>Bio Message:</b> If any schools have excess Chromebooks that would be great.'+
                     '</div>'+
                       '</div>';
 
@@ -75,20 +80,23 @@ function initMap() {
     content: contentString5
   });
 
+  var icons = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png';
+
+
   var marker1 = new google.maps.Marker({
     position: saratoga,
     map: map,
-    title: 'Uluru (Ayers Rock)'
+    icon: icons
   });
   var marker2 = new google.maps.Marker({
     position: gunn,
     map: map,
-    title: 'Uluru (Ayers Rock)'
+    icon: icons
   });
   var marker3 = new google.maps.Marker({
     position: mv,
     map: map,
-    title: 'Uluru (Ayers Rock)'
+    icon: icons
   });
   var marker4 = new google.maps.Marker({
     position: jl,
@@ -138,8 +146,9 @@ function initMapTwo() {
           '</div>'+
           '<h1 id="firstHeading" class="firstHeading">Saratoga High School</h1>'+
           '<div id="bodyContent">'+
-          '<p><b>Device Type:</b> Chromebooks' +
-          '<p><b>Device Count:</b> 2600'+
+          '<p><b>Excess Device Type:</b> Chromebooks' +
+          '<p><b>Excess Device Count:</b> 2600'+
+          '<p><b>Bio Message:</b> Willing to work with any Bay Area Schoosl in need of devices.'+
         '</div>'+
           '</div>';
 
@@ -148,8 +157,9 @@ function initMapTwo() {
               '</div>'+
               '<h1 id="firstHeading" class="firstHeading">Gunn High School</h1>'+
               '<div id="bodyContent">'+
-              '<p><b>Device Type:</b> Chromebooks' +
-              '<p><b>Device Count:</b> 2600'+
+              '<p><b>Excess Device Type:</b> MacBooks' +
+              '<p><b>Excess Device Count:</b> 1500'+
+              '<p><b>Bio Message:</b> Excited to work with any Bay Area Schools to help students.'+
             '</div>'+
               '</div>';
 
@@ -158,8 +168,9 @@ function initMapTwo() {
                   '</div>'+
                   '<h1 id="firstHeading" class="firstHeading">Monta Vista High School</h1>'+
                   '<div id="bodyContent">'+
-                  '<p><b>Device Type:</b> Chromebooks' +
-                  '<p><b>Device Count:</b> 2600'+
+                  '<p><b>Excess Device Type:</b> iPads' +
+                  '<p><b>Excess Device Count:</b> 2300'+
+                  '<p><b>Bio Message:</b> If any schools need more devices for their students, please do not hesistate to reach out.'+
                 '</div>'+
                   '</div>';
 
@@ -168,8 +179,9 @@ function initMapTwo() {
                       '</div>'+
                       '<h1 id="firstHeading" class="firstHeading">James Logan High School</h1>'+
                       '<div id="bodyContent">'+
-                      '<p><b>Device Type:</b> Chromebooks' +
-                      '<p><b>Device Count:</b> 2600'+
+                      '<p><b>Device Type Needed:</b> Any' +
+                      '<p><b>Device Count Needed:</b> 2600'+
+                      '<p><b>Bio Message:</b> Would appreciate any support, open to any devices for ~1000 students.'+
                     '</div>'+
                       '</div>';
 
@@ -178,8 +190,9 @@ function initMapTwo() {
                           '</div>'+
                           '<h1 id="firstHeading" class="firstHeading">Prospect High School</h1>'+
                           '<div id="bodyContent">'+
-                          '<p><b>Device Type:</b> Chromebooks' +
-                          '<p><b>Device Count:</b> 2600'+
+                          '<p><b>Device Type Needed:</b> iPads' +
+                          '<p><b>Device Count Needed:</b> ~1500'+
+                          '<p><b>Bio Message:</b> If any schools have excess iPads that would be great.'+
                         '</div>'+
                           '</div>';
 
@@ -189,9 +202,14 @@ function initMapTwo() {
                               '<h1 id="firstHeading" class="firstHeading">Gilroy High School</h1>'+
                               '<div id="bodyContent">'+
                               '<p><b>Device Type:</b> Chromebooks' +
-                              '<p><b>Device Count:</b> 2600'+
+                              '<p><b>Device Count:</b> ~1000'+
+                              '<p><b>Bio Message:</b> Our school would love to borrow any excess Chromebooks available.'+
                             '</div>'+
                               '</div>';
+
+
+                var icons = "http://maps.google.com/mapfiles/ms/icons/blue-dot.png";
+
 
       var infowindow1 = new google.maps.InfoWindow({
         content: contentString1
@@ -215,17 +233,17 @@ function initMapTwo() {
       var marker1 = new google.maps.Marker({
         position: saratoga,
         map: map,
-        title: 'Uluru (Ayers Rock)'
+        icon: icons
       });
       var marker2 = new google.maps.Marker({
         position: gunn,
         map: map,
-        title: 'Uluru (Ayers Rock)'
+        icon: icons
       });
       var marker3 = new google.maps.Marker({
         position: mv,
         map: map,
-        title: 'Uluru (Ayers Rock)'
+        icon: icons
       });
       var marker4 = new google.maps.Marker({
         position: jl,

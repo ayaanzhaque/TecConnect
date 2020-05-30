@@ -195,32 +195,7 @@
       <body>
         <!--The div element for the map -->
         <div id="map"></div>
-        <script>
-    // Initialize and add the map
-    function initMap() {
-          //initialize user input
-          var userLat = 37.7749;
-          var userLng = -122.4194;
-          // The location of Uluru
-          var uluru = {lat: userLat, lng: userLng};
-          var saratoga = {lat: 37.2664, lng: -122.0296};
-          var gunn = {lat: 37.4025, lng: -122.1334};
-          var montaVista = {lat: 37.3150, lng: -122.0562};
-          var prospect = {lat: 37.2924, lng: -122.0011};
-          var jamesLogan = {lat: 37.5899, lng: -122.0269};
-
-
-          // The map, centered at Uluru
-          var map = new google.maps.Map(
-              document.getElementById('map'), {zoom: 4, center: uluru});
-          // The marker, positioned at Uluru
-          var marker = new google.maps.Marker({position: saratoga, map: map});
-          var marker = new google.maps.Marker({position: gunn, map: map});
-          var marker = new google.maps.Marker({position: montaVista, map: map});
-          var marker = new google.maps.Marker({position: prospect, map: map});
-          var marker = new google.maps.Marker({position: jamesLogan, map: map});
-        }
-        </script>
+        <script src="googleMaps.js"></script>
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjWfWoYtAhvc6i9C4V5SekngUKeyXOYoc&callback=initMap">
         </script>
@@ -455,6 +430,7 @@
               <center>
                 <button
                   id="formbutton"
+                  onclick="initMapTwo()"
                   type="button"
                   class="btn btn-primary btn-submit"
                 >

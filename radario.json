@@ -31,3 +31,31 @@
     }
   }
 }
+
+{
+  insights: {
+    state: {
+      home: false,
+      office: false,
+      traveling: true,
+      commuting: false
+    },
+    locations: [
+      {
+        type: "home",
+        coordinates: [
+          -73.977797,
+          40.783826
+        ],
+        confidence: 3
+      },
+      {
+        type: "office",
+        coordinates: [
+          -73.977797,
+          40.783826
+        ],
+        confidence: 3
+    ]
+  }
+}

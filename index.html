@@ -328,6 +328,7 @@
 
     </section><!-- End Maps Section -->
 
+
     <section id="input" class="section-padding wow fadeInUp delay-05s">
       <div class="container">
         <div class="row">
@@ -338,93 +339,250 @@
         </div>
       </div>
       <div class="contact-form">
-        <div id="sendmessage">Your message has been sent. Thank you!</div>
         <div id="errormessage"></div>
-        <form id="markerForm" method="post" role="form" class="contactForm">
-          <div class="col-md-3"></div>
-          <div class="col-md-3">
-            <div class="form-group">
-              <input
-                type="text"
-                name="name"
-                class="form-control"
-                id="name"
-                placeholder="Your Name"
-                data-rule-required="true"
-                data-msg-required="Please enter your name"
-              />
-              <div class="validation"></div>
+        <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {font-family: Poppins;}
+
+        /* Style the tab */
+        .tab {
+          overflow: hidden;
+          border: 1px solid #ccc;
+          background-color: #f1f1f1;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+          background-color: inherit;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          transition: 0.3s;
+          font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+          background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+          background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+          display: none;
+          padding: 6px 12px;
+          border: 1px solid #ccc;
+          border-top: none;
+        }
+        </style>
+        </head>
+        <body>
+
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Device Donor</button>
+          <button class="tablinks" onclick="openCity(event, 'Paris')">Device Recipient</button>
+        </div>
+
+        <div id="London" class="tabcontent">
+          <form id="markerForm" method="post" role="form" class="contactForm">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name"
+                  data-rule-required="true"
+                  data-msg-required="Please enter your name"
+                />
+                <div class="validation"></div>
+              </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="form-group">
-              <input
-                type="email"
-                class="form-control"
-                name="email"
-                id="email"
-                placeholder="Your Email"
-                data-rule-email="true"
-                data-msg-email="Please enter a valid email"
-              />
-              <div class="validation"></div>
+            <div class="col-md-3">
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                  data-rule-email="true"
+                  data-msg-email="Please enter a valid email"
+                />
+                <div class="validation"></div>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 col-md-offset-3">
-            <div class="form-group">
-              <input
-                type="text"
-                class="form-control"
-                name="address"
-                id="address"
-                placeholder="Address"
-                data-rule-minlength="4"
-                data-msg-minlength="Please enter a valid address"
-              />
-              <div class="validation"></div>
+            <div class="col-md-6 col-md-offset-3">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="address"
+                  id="address"
+                  placeholder="Address"
+                  data-rule-minlength="4"
+                  data-msg-minlength="Please enter a valid address"
+                />
+                <div class="validation"></div>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 col-md-offset-3">
-            <div class="form-group">
-              <input
-                type="text"
-                class="form-control"
-                name="subject"
-                id="subject"
-                placeholder="Subject"
-                data-rule-required="true"
-                data-msg-required="Please enter a subject"
-              />
-              <div class="validation"></div>
+            <div class="col-md-6 col-md-offset-3">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                  data-rule-required="true"
+                  data-msg-required="Please enter a subject"
+                />
+                <div class="validation"></div>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 col-md-offset-3">
-            <div class="form-group">
-              <textarea
-                class="form-control"
-                id="message"
-                name="message"
-                rows="5"
-                placeholder="Message"
-                data-rule-required="true"
-                data-msg-required="Please enter a message"
-              ></textarea>
-              <div class="validation"></div>
+            <div class="col-md-6 col-md-offset-3">
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Message"
+                  data-rule-required="true"
+                  data-msg-required="Please enter a message"
+                ></textarea>
+                <div class="validation"></div>
+              </div>
+              <center>
+                <button
+                  id="formbutton"
+                  type="button"
+                  class="btn btn-primary btn-submit"
+                >
+                  SUBMIT
+                </button>
+              </center>
             </div>
-            <center>
-              <button
-                id="formbutton"
-                type="button"
-                class="btn btn-primary btn-submit"
-              >
-                SUBMIT
-              </button>
-            </center>
-          </div>
-        </form>
+          </form>
+        </div>
+
+        <div id="Paris" class="tabcontent">
+          <form id="markerForm" method="post" role="form" class="contactForm">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name"
+                  data-rule-required="true"
+                  data-msg-required="Please enter your name"
+                />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                  data-rule-email="true"
+                  data-msg-email="Please enter a valid email"
+                />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="address"
+                  id="address"
+                  placeholder="Address"
+                  data-rule-minlength="4"
+                  data-msg-minlength="Please enter a valid address"
+                />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                  data-rule-required="true"
+                  data-msg-required="Please enter a subject"
+                />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Message"
+                  data-rule-required="true"
+                  data-msg-required="Please enter a message"
+                ></textarea>
+                <div class="validation"></div>
+              </div>
+              <center>
+                <button
+                  id="formbutton"
+                  type="button"
+                  class="btn btn-primary btn-submit"
+                >
+                  SUBMIT
+                </button>
+              </center>
+            </div>
+          </form>
+        </div>
+
+
+
+        <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+
+        document.getElementById("defaultOpen").click();
+        </script>
+
+        </body>
       </div>
     </section>
-
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">

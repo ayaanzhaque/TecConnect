@@ -5,7 +5,7 @@
       var jl = {lat: 37.2924, lng: -122.0011};
       var prospect = {lat: 37.5899, lng: -122.0269};
       var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 4,
+        zoom: 10,
         center: saratoga
       });
 
@@ -120,6 +120,7 @@
 
   // Initialize and add the map
   function initMapTwo() {
+
           var saratoga = {lat: 37.2664, lng: -122.0296};
           var gunn = {lat: 37.4025, lng: -122.1334};
           var mv = {lat: 37.3150, lng: -122.0562};
@@ -128,7 +129,7 @@
           var gilroy = {lat: 36.9951, lng: -121.5763};
 
           var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 4,
+            zoom: 10,
             center: saratoga
           });
 

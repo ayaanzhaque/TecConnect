@@ -42,7 +42,7 @@
                   var contentString4 = '<div id="content">'+
                       '<div id="siteNotice">'+
                       '</div>'+
-                      '<h1 id="firstHeading" class="firstHeading">James Logan High School</h1>'+
+                      '<h1 id="firstHeading" class="firstHeading">Prospect High School</h1>'+
                       '<div id="bodyContent">'+
                       '<p><b>Device Type:</b> Chromebooks' +
                       '<p><b>Device Count:</b> 2600'+
@@ -52,7 +52,7 @@
                       var contentString5 = '<div id="content">'+
                           '<div id="siteNotice">'+
                           '</div>'+
-                          '<h1 id="firstHeading" class="firstHeading">Prospect High School</h1>'+
+                          '<h1 id="firstHeading" class="firstHeading">James Logan High School</h1>'+
                           '<div id="bodyContent">'+
                           '<p><b>Device Type:</b> Chromebooks' +
                           '<p><b>Device Count:</b> 2600'+

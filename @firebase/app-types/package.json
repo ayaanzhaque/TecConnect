@@ -16,6 +16,7 @@
     "saveSpec": null,
     "fetchSpec": "0.6.1"
   },
+  
   "_requiredBy": [
     "/@firebase/database-types"
   ],

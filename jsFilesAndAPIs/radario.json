@@ -59,3 +59,85 @@
     ]
   }
 }
+
+{
+  "_id": "56db1f4613012711002229f4",
+  "live": true,
+  "userId": "1",
+  "deviceId": "C305F2DB-56DC-404F-B6C1-BC52F0B680D8",
+  "metadata": {
+    "customId": "123",
+    "customFlag": false
+  },
+  "location": {
+    "type": "Point",
+    "coordinates": [-73.97536, 40.78382]
+  },
+  "locationAccuracy": 5,
+  "foreground": true,
+  "stopped": true,
+  "deviceType": "iOS",
+  "updatedAt": "2016-06-10T13:44:10.535Z",
+  "geofences": [
+    {
+      "_id": "56db1f4613012711002229f5",
+      "tag": "neighborhood",
+      "externalId": "1",
+      "description": "Upper West Side",
+      ...
+    },
+    ...
+  ],
+  "place": {
+    "_id": "56db1f4613012711002229f7",
+    "facebookId": "37965424481",
+    "name": "Starbucks",
+    "categories": [
+      "food-beverage",
+      "cafe",
+      "coffee-shop"
+    ],
+    "chain": {
+      "name": "Starbucks",
+      "slug": "starbucks"
+    }
+  },
+  "country": {
+    "name": "United States",
+    "code": "US"
+  },
+  "schools": {
+    "school": "Saratoga High School",
+    "school": "Prospect High School",
+    "school": "Monta Vista High School",
+    "school": "James Logan High School",
+    "school": "Gunn High School"
+  }
+  "insights": {
+    "locations": [
+      {
+        "type": "home",
+        "location": {
+          "type": "Point",
+          "coordinates": [-73.97491, 40.78697]
+        },
+        "confidence": 3,
+        "updatedAt": "2017-04-04T01:23:47.495Z"
+      },
+      {
+        "type": "office",
+        "location": {
+          "type": "Point",
+          "coordinates": [-73.98885, 40.76994],
+        },
+        "confidence": 1,
+        "updatedAt": "2017-04-04T01:23:47.495Z"
+      }
+    ],
+    "state": {
+      "home": false,
+      "office": false,
+      "traveling": false
+    }
+  }
+}

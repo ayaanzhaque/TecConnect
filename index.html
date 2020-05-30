@@ -831,27 +831,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-<h1 id="bigOne"></h1>
-  <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-      apiKey: "AIzaSyCVd3JlpPcn1ixkTZIomyOQSouHTJW16pU",
-      authDomain: "tecconnect-a0f22.firebaseapp.com",
-      databaseURL: "https://tecconnect-a0f22.firebaseio.com",
-      projectId: "tecconnect-a0f22",
-      storageBucket: "tecconnect-a0f22.appspot.com",
-      messagingSenderId: "849720177846",
-      appId: "1:849720177846:web:9ab51c05a8822a53f3e217",
-      measurementId: "G-NEXR5PSHJ7"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-
-    var bigOne = document.getElementById('bigOne');
-    var dbRef = firebase.database().ref().child('text');
-    dbRef.on('value', snap => bigOne.innerText = snap.val());
-    firebase.analytics();
-  </script>
+  <script src="firebase.js"></script>
 
 
 </body>

@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/ayaanzhaque/TecConnect#readme",
   "dependencies": {
-    "mongodb": "^3.5.8"
+    "mongodb": "^3.5.8",
+    "radar-sdk-js": "^3.0.0-beta.4"
   }
 }

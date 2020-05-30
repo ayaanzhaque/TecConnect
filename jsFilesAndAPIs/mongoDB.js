@@ -1,4 +1,110 @@
-const MongoClient = require('mongodb').MongoClient;
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/";
+
+MongoClient.connect(url, function(err, db) {
+  if (err) throw err;
+  var dbo = db.db("mydb");
+  var query = { address: "Park Lane 38" };
+  dbo.collection("customers").find(query).toArray(function(err, result) {
+    if (err) throw err;
+    console.log(result);
+    db.close();
+  });
+});
+
+const mongo = require('mongodb');
+
+const MongoClient = mongo.MongoClient;
+const url = 'mongodb://localhost:27017';
+
+MongoClient.connect(url, { useNewUrlParser: true }, (err, client) => {
+
+    if (err) throw err;
+
+    const db = client.db("testdb");
+
+    db.stats((err, stats) => {
+
+        if (err) throw err;
+
+        console.log(stats);
+
+        client.close();
+    })
+});
+
+const mongo = require('mongodb');
+
+const MongoClient = mongo.MongoClient;
+
+const url = 'mongodb://localhost:27017';
+
+MongoClient.connect(url, { useNewUrlParser: true }, (err, client) => {
+
+    if (err) throw err;
+
+    const db = client.db("testdb");
+
+    db.collection('cars').find({}).toArray().then((docs) => {
+
+        console.log(docs);
+
+    }).catch((err) => {
+
+        console.log(err);
+    }).finally(() => {
+
+        client.close();
+    });
+});
+
+const mongo = require('mongodb');
+
+const MongoClient = mongo.MongoClient;
+
+const url = 'mongodb://localhost:27017';
+
+MongoClient.connect(url, { useNewUrlParser: true }, (err, client) => {
+
+    if (err) throw err;
+
+    const db = client.db("testdb");
+
+    db.collection('cars').find({}).toArray().then((docs) => {
+
+        console.log(docs);
+
+    }).catch((err) => {
+
+        console.log(err);
+    }).finally(() => {
+
+        client.close();
+    });
+});
+
+MongoClient.connect(url, { useNewUrlParser: true }, (err, client) => {
+
+    if (err) throw err;
+
+    const db = client.db("testdb");
+
+    let collection = db.collection('cars');
+    let query = { name: 'Volkswagen' }
+
+    collection.findOne(query).then(doc => {
+
+        console.log(doc);
+
+    }).catch((err) => {
+
+        console.log(err);
+    }).finally(() => {
+
+        client.close();
+    });
+});
+
 const assert = require('assert');
 
 // Connection URL
@@ -178,6 +284,140 @@ client.connect(function(err) {
       client.close();
     });
   });
+});
+
+async function findCar() {
+
+    const client = await MongoClient.connect(url, { useNewUrlParser: true })
+        .catch(err => { console.log(err); });
+
+    if (!client) {
+        return;
+    }
+
+    try {
+
+        const db = client.db("testdb");
+
+        let collection = db.collection('cars');
+
+        let query = { name: 'Volkswagen' }
+
+        let res = await collection.findOne(query);
+
+        console.log(res);
+
+    } catch (err) {
+
+        console.log(err);
+    } finally {
+
+        client.close();
+    }
+}
+
+findCar();
+
+MongoClient.connect(url, { useNewUrlParser: true }, (err, client) => {
+
+    if (err) throw err;
+
+    const db = client.db("testdb");
+
+    let query = { price: { $gt: 30000 } };
+
+    db.collection('cars').find(query).toArray().then((docs) => {
+
+        console.log(docs);
+
+    }).catch((err) => {
+
+        console.log(err);
+    }).finally(() => {
+
+        client.close();
+    });
+});
+
+MongoClient.connect(url, { useNewUrlParser: true }, (err, client) => {
+
+   if (err) throw err;
+
+   const db = client.db("testdb");
+
+   let query = { $and: [{ price: { $gt: 20000 } }, { price: { $lt: 50000 } }] };
+
+   db.collection('cars').find(query).toArray().then((docs) => {
+
+      console.log(docs);
+   }).catch((err) => {
+
+      console.log(err);
+   }).finally(() => {
+
+      client.close();
+   });
+});
+
+MongoClient.connect(url, { useNewUrlParser: true }, (err, client) => {
+
+   if (err) throw err;
+
+   const db = client.db("testdb");
+
+   db.collection('cars').find({}).project({_id: 0}).toArray().then((docs) => {
+
+      console.log(docs);
+   }).catch((err) => {
+
+      console.log(err);
+   }).finally(() => {
+
+      client.close();
+   });
+});
+
+MongoClient.connect(url, { useNewUrlParser: true }, (err, client) => {
+
+   if (err) throw err;
+
+   const db = client.db("testdb");
+
+   let myagr = [{$group: {_id: 1, all: { $sum: "$price" } }}];
+
+   db.collection('cars').aggregate(myagr).toArray().then((sum) => {
+
+      console.log(sum);
+   }).catch((err) => {
+
+      console.log(err);
+   }).finally(() => {
+
+      client.close();
+   });
+});
+
+MongoClient.connect(url, { useNewUrlParser: true }, (err, client) => {
+
+    if (err) throw err;
+
+    const db = client.db("testdb");
+
+    let myagr = [
+        { $match: { $or: [{ name: "Audi" }, { name: "Volvo" }] } },
+        { $group: { _id: 1, sum2cars: { $sum: "$price" } } }
+    ];
+
+    db.collection('cars').aggregate(myagr).toArray().then((sum) => {
+
+        console.log(sum);
+    }).catch((err) => {
+
+        console.log(err);
+    }).finally(() => {
+
+        client.close();
+    });
 });
 
 const removeDocument = function(db, callback) {

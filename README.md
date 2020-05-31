@@ -1,13 +1,17 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b1d75549-8cf3-411b-9f7c-8db5f97f0aed/deploy-status)](https://app.netlify.com/sites/brave-kirch-3db040/deploys)
 # [TecConnect](https://tecconnect.tech/)
 
-**Grand Prize Winner @ AI4ALL CreAItivity Challenge 2020 ($300 Cash Prize)**
+**1st Place Grand Prize Winner @ AI4ALL CreAItivity Challenge 2020 **
 
 **Sponser Prize Winner @ RookieHacks2020**
 
 Demo: https://youtu.be/eep9ySXg_vA
 
-CreAitivity Winner Page: https://teamcreaitivity.wixsite.com/creaitivity/2020-covid-19-challenge-results
+Executive Summary: https://drive.google.com/open?id=1YfTJ62Jyqvhz7gQOhnRn55-TWZL59RQJpBskmdQ0BCw
+
+Proposal: https://drive.google.com/open?id=1Ee47YBi950PiapqS32xQgjRajwDxdv41Z-_5aRPkN6Y
+
+[CreAitivity Winner Page](https://teamcreaitivity.wixsite.com/creaitivity/2020-covid-19-challenge-results)
 
 Devpost: https://devpost.com/software/tecconnect
 

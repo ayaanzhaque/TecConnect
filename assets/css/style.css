@@ -656,9 +656,15 @@ section {
 .services .card-img {
   width: calc(100% + 60px);
   margin-left: -30px;
+  margin-right: 0px;
   overflow: hidden;
   z-index: 9;
   border-radius: 0;
+}
+
+.services .recommandationCard {
+  display: inline-block;
+  align-items: center;
 }
 
 .services .card-img img {
@@ -681,6 +687,7 @@ section {
   text-align: center;
   margin-bottom: 20px;
 }
+
 
 .services .card-title a {
   color: #213b52;

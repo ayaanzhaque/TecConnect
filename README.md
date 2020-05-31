@@ -1,10 +1,14 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b1d75549-8cf3-411b-9f7c-8db5f97f0aed/deploy-status)](https://app.netlify.com/sites/brave-kirch-3db040/deploys)
 # [TecConnect](https://tecconnect.tech/)
-Submission code for RookieHacks
+
+** Grand Prize Winner @ AI4ALL CreAItivity Challenge 2020 ($300 Cash Prize) **
+
+** Sponser Prize Winner @ RookieHacks2020 **
 
 Demo: https://youtu.be/eep9ySXg_vA
 
-CreAitivity link: https://teamcreaitivity.wixsite.com/creaitivity/2020-covid-19-challenge-results
+CreAitivity Winner Page: https://teamcreaitivity.wixsite.com/creaitivity/2020-covid-19-challenge-results
+
 Devpost: https://devpost.com/software/tecconnect
 
 TecConnect is a unique PWA that allows impoverished and wealthy schools to easily connect and transfer devices from those who have them to ones who don’t. Due to the COVID crisis, low-income students don't have access to devices, and as a result, are falling behind in their education. However, there are many schools with surpluses of devices, and currently, they are being wasted. 

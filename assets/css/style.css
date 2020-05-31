@@ -8,6 +8,18 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    cursor: pointer;
+
+    background: #fdc134;
+    border: 0;
+    padding: 10px 24px;
+    color: #ffffff;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;

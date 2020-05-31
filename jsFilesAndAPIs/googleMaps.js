@@ -16,7 +16,7 @@ function initMap() {
       '<div id="bodyContent">'+
       '<p><b>Excess Device Type:</b> Chromebooks' +
       '<p><b>Excess Device Count:</b> 2600'+
-      '<p><b>Bio Message:</b> Willing to work with any Bay Area Schoosl in need of devices.'+
+      '<p><b>Bio Message:</b> Willing to work with any Bay Area Schools in need of devices.'+
     '</div>'+
       '</div>';
 

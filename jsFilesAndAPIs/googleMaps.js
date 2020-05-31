@@ -16,6 +16,7 @@ function initMap() {
       '<div id="bodyContent">'+
       '<p><b>Excess Device Type:</b> Chromebooks' +
       '<p><b>Excess Device Count:</b> 2600'+
+      '<p><b>Preferred Dates:</b> 6/5/2020-6/13/2020'+
       '<p><b>Bio Message:</b> Willing to work with any Bay Area Schools in need of devices.'+
     '</div>'+
       '</div>';
@@ -27,6 +28,7 @@ function initMap() {
           '<div id="bodyContent">'+
           '<p><b>Excess Device Type:</b> MacBooks' +
           '<p><b>Excess Device Count:</b> 1500'+
+          '<p><b>Preferred Dates:</b> 6/12/2020-6/20/2020'+
           '<p><b>Bio Message:</b> Excited to work with any Bay Area Schools to help students.'+
         '</div>'+
           '</div>';
@@ -38,6 +40,7 @@ function initMap() {
               '<div id="bodyContent">'+
               '<p><b>Excess Device Type:</b> iPads' +
               '<p><b>Excess Device Count:</b> 1950'+
+              '<p><b>Preferred Dates:</b> 5/30/2020-6/1/2020'+
               '<p><b>Bio Message:</b> If any schools need more devices for their students, please do not hesistate to reach out.'+
             '</div>'+
               '</div>';
@@ -49,7 +52,8 @@ function initMap() {
                   '<div id="bodyContent">'+
                   '<p><b>Device Type Needed:</b> Any' +
                   '<p><b>Device Count Needed:</b> 1400'+
-                  '<p><b>Bio Message:</b> Would appreciate any support, open to any devices for ~1000 students.'+
+                  '<p><b>Preferred Dates:</b> 6/10/10-6/16/2020'+
+                  '<p><b>Bio Message:</b> Would appreciate any support, open to any devices for our students.'+
                 '</div>'+
                   '</div>';
 
@@ -60,6 +64,7 @@ function initMap() {
                       '<div id="bodyContent">'+
                       '<p><b>Device Type Needed:</b> Chromebooks' +
                       '<p><b>Device Count Needed:</b> 2100'+
+                      '<p><b>Preferred Dates:</b> 6/7/10-6/20/2020'+
                       '<p><b>Bio Message:</b> If any schools have excess Chromebooks that would be great.'+
                     '</div>'+
                       '</div>';
@@ -148,6 +153,7 @@ function initMapTwo() {
           '<div id="bodyContent">'+
           '<p><b>Excess Device Type:</b> Chromebooks' +
           '<p><b>Excess Device Count:</b> 2600'+
+          '<p><b>Preferred Dates:</b> 6/5/2020-6/13/2020'+
           '<p><b>Bio Message:</b> Willing to work with any Bay Area Schools in need of devices.'+
         '</div>'+
           '</div>';
@@ -159,6 +165,7 @@ function initMapTwo() {
               '<div id="bodyContent">'+
               '<p><b>Excess Device Type:</b> MacBooks' +
               '<p><b>Excess Device Count:</b> 1500'+
+              '<p><b>Preferred Dates:</b> 6/12/2020-6/20/2020'+
               '<p><b>Bio Message:</b> Excited to work with any Bay Area Schools to help students.'+
             '</div>'+
               '</div>';
@@ -170,6 +177,7 @@ function initMapTwo() {
                   '<div id="bodyContent">'+
                   '<p><b>Excess Device Type:</b> iPads' +
                   '<p><b>Excess Device Count:</b> 1950'+
+                  '<p><b>Preferred Dates:</b> 5/30/2020-6/1/2020'+
                   '<p><b>Bio Message:</b> If any schools need more devices for their students, please do not hesistate to reach out.'+
                 '</div>'+
                   '</div>';
@@ -181,7 +189,8 @@ function initMapTwo() {
                       '<div id="bodyContent">'+
                       '<p><b>Device Type Needed:</b> Any' +
                       '<p><b>Device Count Needed:</b> 1400'+
-                      '<p><b>Bio Message:</b> Would appreciate any support, open to any devices for ~1000 students.'+
+                      '<p><b>Preferred Dates:</b> 6/10/10-6/16/2020'+
+                      '<p><b>Bio Message:</b> Would appreciate any support, open to any devices for our students.'+
                     '</div>'+
                       '</div>';
 
@@ -192,6 +201,7 @@ function initMapTwo() {
                           '<div id="bodyContent">'+
                           '<p><b>Device Type Needed:</b> Chromebooks' +
                           '<p><b>Device Count Needed:</b> 2100'+
+                          '<p><b>Preferred Dates:</b> 6/7/10-6/20/2020'+
                           '<p><b>Bio Message:</b> If any schools have excess Chromebooks that would be great.'+
                         '</div>'+
                           '</div>';
@@ -203,7 +213,8 @@ function initMapTwo() {
                               '<div id="bodyContent">'+
                               '<p><b>Device Type:</b> Chromebooks' +
                               '<p><b>Device Count:</b> 1000'+
-                              '<p><b>Bio Message:</b> Our school would love to borrow any excess Chromebooks available.'+
+                              '<p><b>Bio Message:</b> test gilroy'+
+                              '<p><b>Preferred Dates:</b> 6/1/10-6/10/2020'+
                             '</div>'+
                               '</div>';
 

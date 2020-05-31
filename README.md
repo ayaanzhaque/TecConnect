@@ -2,6 +2,9 @@
 # [TecConnect](https://tecconnect.tech/)
 Submission code for RookieHacks
 
+Demo: https://youtu.be/eep9ySXg_vA
+Devpost: https://devpost.com/software/tecconnect
+
 TecConnect is a unique PWA that allows impoverished and wealthy schools to easily connect and transfer devices from those who have them to ones who don’t. Due to the COVID crisis, low-income students don't have access to devices, and as a result, are falling behind in their education. However, there are many schools with surpluses of devices, and currently, they are being wasted. 
 
 Thus, we developed TecConnect to allow schools to request devices from schools who have excess devices. We developed an application specifically for schools and the state government. We plan to implement our software as part of a statewide plan to promote device sharing in all schools. 

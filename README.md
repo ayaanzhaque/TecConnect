@@ -1,9 +1,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b1d75549-8cf3-411b-9f7c-8db5f97f0aed/deploy-status)](https://app.netlify.com/sites/brave-kirch-3db040/deploys)
 # [TecConnect](https://tecconnect.tech/)
 
-** Grand Prize Winner @ AI4ALL CreAItivity Challenge 2020 ($300 Cash Prize) **
+**Grand Prize Winner @ AI4ALL CreAItivity Challenge 2020 ($300 Cash Prize)**
 
-** Sponser Prize Winner @ RookieHacks2020 **
+**Sponser Prize Winner @ RookieHacks2020**
 
 Demo: https://youtu.be/eep9ySXg_vA
 

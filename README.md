@@ -23,4 +23,4 @@ After navigating to the website, schools are prompted to fill out a quick survey
 
 Our software consists of two key algorithms and a APIs. We developed a pairing algorithm that uses data stored in the MongoDB Atlas database, such as device count, type, and school locations, to optimally pair schools for device sharing. This algorithm incorporates Radar.io to do distance calculations and pair schools. Once this is complete, the second algorithm uses similar data stored in MongoDB to generate a recommended plan of actions for the schools. 
 
-
+![Instagram Winners Photo](https://github.com/ayaanhaque/[TecConnect]/blob/[master]/creAItivityPhoto.jpg?raw=true)

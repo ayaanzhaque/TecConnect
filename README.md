@@ -3,6 +3,8 @@
 
 **1st Place Grand Prize Winner @ AI4ALL CreAItivity Challenge 2020**
 
+**1st Place Grand Prize Winner @ Saratoga Congressional Hackathon 2020**
+
 **Sponser Prize Winner @ MLH RookieHacks2020**
 
 Demo: https://youtu.be/eep9ySXg_vA

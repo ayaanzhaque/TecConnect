@@ -15,6 +15,8 @@ Proposal: https://drive.google.com/open?id=1Ee47YBi950PiapqS32xQgjRajwDxdv41Z-_5
 
 Devpost: https://devpost.com/software/tecconnect
 
+Medium Article: https://medium.com/@ayaanzhaque/tecconnect-the-greatest-covid-education-proposal-that-ever-failed-1cdf9fe5b400
+
 [CreAItivity Winner Page](https://teamcreaitivity.wixsite.com/creaitivity/2020-covid-19-challenge-results)
 
 TecConnect is a unique PWA that allows impoverished and wealthy schools to easily connect and transfer devices from those who have them to ones who don’t. Due to the COVID crisis, low-income students don't have access to devices, and as a result, are falling behind in their education. However, there are many schools with surpluses of devices, and currently, they are being wasted.

@@ -19,9 +19,9 @@ Medium Article: https://medium.com/@ayaanzhaque/tecconnect-the-greatest-covid-ed
 
 [CreAItivity Winner Page](https://teamcreaitivity.wixsite.com/creaitivity/2020-covid-19-challenge-results)
 
-TecConnect is a unique PWA that allows impoverished and wealthy schools to easily connect and transfer devices from those who have them to ones who don’t. Due to the COVID crisis, low-income students don't have access to devices, and as a result, are falling behind in their education. However, there are many schools with surpluses of devices, and currently, they are being wasted.
+TecConnect is a unique PWA that allows impoverished and wealthy schools to easily connect and transfer devices from those who have them to ones who don’t. Due to the COVID crisis, low-income students don't have access to devices, and as a result, are falling behind in their education. However, many schools have surpluses of devices that are currently being wasted. 
 
-Thus, we developed TecConnect to allow schools to request devices from schools who have excess devices. We developed an application specifically for schools and the state government. We plan to implement our software as part of a statewide plan to promote device sharing in all schools.
+Thus, we developed TecConnect to allow struggling schools to request devices from schools with excess devices. We developed an application specifically for schools and the state government. We plan to implement our software as part of a statewide plan to promote device sharing in all schools.
 
 After navigating to the website, schools are prompted to fill out a quick survey that records their basic information on how many devies they can donate or how many they need and forwards it to our database. After filling out this report, through the use of Google Maps, supported by Google Cloud, the school is put on a map which shows other schools also using the service.
 

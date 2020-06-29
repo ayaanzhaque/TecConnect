@@ -9,13 +9,13 @@
 
 Demo: https://youtu.be/eep9ySXg_vA
 
+Medium Article: https://medium.com/illumination/tecconnect-the-greatest-covid-education-proposal-that-ever-failed-6ebea230259e
+
 Executive Summary: https://drive.google.com/open?id=1YfTJ62Jyqvhz7gQOhnRn55-TWZL59RQJpBskmdQ0BCw
 
 Proposal: https://drive.google.com/open?id=1Ee47YBi950PiapqS32xQgjRajwDxdv41Z-_5aRPkN6Y
 
 Devpost: https://devpost.com/software/tecconnect
-
-Medium Article: https://medium.com/@ayaanzhaque/tecconnect-the-greatest-covid-education-proposal-that-ever-failed-1cdf9fe5b400
 
 [CreAItivity Winner Page](https://teamcreaitivity.wixsite.com/creaitivity/2020-covid-19-challenge-results)
 

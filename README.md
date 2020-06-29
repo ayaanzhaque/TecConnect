@@ -5,7 +5,7 @@
 
 **1st Place Grand Prize Winner @ Saratoga Congressional Hackathon 2020**
 
-**Sponser Prize Winner @ MLH Summer League RH 2020**
+**Sponsor Prize Winner @ MLH Summer League RH 2020**
 
 Demo: https://youtu.be/eep9ySXg_vA
 

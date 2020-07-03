@@ -1,11 +1,11 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b1d75549-8cf3-411b-9f7c-8db5f97f0aed/deploy-status)](https://app.netlify.com/sites/brave-kirch-3db040/deploys)
 # [TecConnect](https://tecconnect.tech/)
 
-**1st Place Grand Prize Winner @ AI4ALL CreAItivity Challenge 2020**
+- **1st Place Grand Prize Winner @ AI4ALL CreAItivity Challenge 2020**
 
-**1st Place Grand Prize Winner @ Saratoga Congressional Hackathon 2020**
+- **1st Place Grand Prize Winner @ Saratoga Congressional Hackathon 2020**
 
-**Sponsor Prize Winner @ MLH Summer League RH 2020**
+- **Sponsor Prize Winner @ MLH Summer League RH 2020**
 
 Demo: https://youtu.be/eep9ySXg_vA
 

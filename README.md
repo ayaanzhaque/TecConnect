@@ -9,7 +9,7 @@
 
 Demo: https://youtu.be/eep9ySXg_vA
 
-Medium Article: https://medium.com/illumination/tecconnect-the-greatest-covid-education-proposal-that-ever-failed-6ebea230259e
+Medium Article (Published on Illumination): https://medium.com/illumination/tecconnect-the-greatest-covid-education-proposal-that-ever-failed-6ebea230259e
 
 Executive Summary: https://drive.google.com/open?id=1YfTJ62Jyqvhz7gQOhnRn55-TWZL59RQJpBskmdQ0BCw
 
